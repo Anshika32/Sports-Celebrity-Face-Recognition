@@ -1,0 +1,79 @@
+.card-wrapper {
+    margin: 5% 0;
+    max-width: 800px;
+  }
+  
+.custom-circle-image {
+  width: 10vw; /* note i used vw not px for better responsive */
+  height: 10vw;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto; /* Centering the circle image */
+  background-color: transparent;
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  letter-spacing: 1.5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.card-text {
+  font-family: MerriweatherRegular;
+  font-size: 20px;
+  line-height: initial;
+}
+
+.dropzone {
+  border-style: dashed;
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+.error {
+  font-family: MerriweatherRegular;
+  font-size: 30px;
+  line-height: initial;
+  color: blue;
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid white;
+}
+
+#classTable td, #classTable th {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #03287f;
+  color: white;
+}
+
+.navbar-text {
+    font-size: 30px; /* Increasing navbar text size */
+    font-weight: bold; /* Highlighting navbar text */
+    color: white; /* Making navbar text white */
+    background-color: rgb(52, 52, 186);
+}
+
+body {
+    background-color: #cfe2f3; /* Light blue background */
+    color: #1a5276; /* Dark blue text color */
+}
